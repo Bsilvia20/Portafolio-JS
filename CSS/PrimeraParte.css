@@ -1,0 +1,76 @@
+.primera_parte {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+}
+
+.avatar {
+    position: relative;
+    height: 250px;
+    width: 250px;
+  }
+  
+  .avatar_conteudo {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .avatar_imagem {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .avatar_badge {
+    position: absolute;
+    background-color: #fff;
+    bottom: -20px;
+    left: calc(50% - 20px);
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.titulo_principal {
+    font-size: 45px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    line-height: 10px;
+    margin-top: 3px;
+}
+
+.subtitulo {
+    font-size: 34px;
+    color: #fff;
+    line-height: 70px;
+    padding: 10px;
+}
+
+.Apresentação_subtitulo {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.Apresentação {
+    font-size: 18px;
+    color: black;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 3rem;
+}

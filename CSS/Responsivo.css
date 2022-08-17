@@ -1,0 +1,29 @@
+@media screen and (max-width:770px) {
+    .primera_parte {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .menu {
+        line-height: 30px;
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .titulo_principal{
+        margin-top: 20px;
+        line-height: 50px;
+    }
+    
+    .divisão_1 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .divisão_2 {
+        display: block;
+    }
+
+    .card {
+        margin: 20px;
+    }
+}

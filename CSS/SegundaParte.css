@@ -1,0 +1,45 @@
+.formação {
+    font-size: 30px;
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.formação_menu {
+    color: black;
+    background-color: #fff;
+    line-height: 30px;
+    list-style-type: square;
+}
+
+.formação_menu li {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    background-color: #fff; 
+    text-align: left;
+    padding-top: 10px;
+}
+
+strong, em {
+    font-size: 20px;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.formação_menu > p {
+    font-size: 15px;
+    color: black;
+    background-color: #fff; 
+    text-align: left;
+}
+
+.divisão {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.foto_perfil {
+    background-color: #fff;
+}
