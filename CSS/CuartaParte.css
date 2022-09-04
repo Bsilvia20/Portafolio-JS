@@ -12,7 +12,7 @@
 .divisão_2 {
     background-color: #fff;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card_html {
@@ -42,7 +42,35 @@
     margin-top: 4px;
 }
 
-.img {
-    padding: 2rem;
-    background-color: #fff;
+.card_css {
+    height: 400px;
+    width: 225px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: #7E58F9;
+    box-shadow: 0 1px 2px 0 rgba(0 0 0 / 12%);
+    overflow: hidden;
 }
+
+.card_css img {
+    margin-bottom: 25px;
+}
+
+.card_js {
+    height: 400px;
+    width: 225px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: #7E58F9;
+    box-shadow: 0 1px 2px 0 rgba(0 0 0 / 12%);
+    overflow: hidden;
+}
+
+.card_js img {
+    margin-bottom: 60px;
+}
+
