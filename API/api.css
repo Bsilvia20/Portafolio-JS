@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", Open Sans, sans-serif, Raleway;
+    background-color: #7E58F9;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.container {
+    border: 1px solid;
+    border-color: grey;
+    padding-bottom: 15rem;
+}
+
+.card {
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 30px;
+    color: #3b3b3b;
+}
+
+.pesquisar {
+    background-color: #ffffff;
+    padding: 5px 70px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #7E58F9;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
