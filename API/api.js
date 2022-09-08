@@ -9,14 +9,15 @@ function usuarioGitHub() {
     (data=>{
         if(data.message){
             document.getElementById('resultado').innerHTML = `
-            <h3>Usuario no existente</h3>
+            <h3>Usuário inexistente</h3>
             `
         }else{
             console.log(data)
             document.getElementById('resultado').innerHTML = `
-            <img src="${data.avatar_url}"
+            <img src="${data.avatar_url}">
             <p>Nome: ${data.name}</p>
             <p>Usuario: ${data.login}</p>
+            <p>Quantidade do repositório: ${data.public_repos}</p>
             <p>Link do repositório: ${data.repos_url}</p>
             `
         }

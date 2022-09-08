@@ -1,36 +1,27 @@
 * {
     box-sizing: border-box;
     font-family: "Montserrat", Open Sans, sans-serif, Raleway;
-    background-color: #7E58F9;
+    background-color: #b9a4fe;
     text-align: center;
     font-weight: bold;
     margin: 20px;
 }
 
-.container {
-    border: 1px solid;
-    border-color: grey;
-    padding-bottom: 15rem;
-}
-
-.card {
-    padding: 10px;
-}
-
 .titulo {
-    font-size: 30px;
-    color: #3b3b3b;
+    font-size: 50px;
+    color: #000000;
 }
 
-.pesquisar {
+#usuario {
     background-color: #ffffff;
     padding: 5px 70px;
+    border-radius: 5px;
 }
 
-.button {
+#button {
     color: #ffffff;
-    background-color: #7E58F9;
-    padding: 5px 10px;
+    background-color: #7526ad;
+    padding: 5px 20px;
     border-radius: 10px;
     cursor: pointer;
 }
